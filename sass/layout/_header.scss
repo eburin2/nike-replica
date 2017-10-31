@@ -17,20 +17,19 @@ header {
   height: 15px;
   filter: opacity(50%);
   &:hover {
-    filter: opacity(100%);
-  }
-}
+    filter: opacity(100%); } }
 
 .header-top img.hurley {
   height: 10px;
   filter: opacity(50%);
-  // transform: translateY(6px);
-
   &:hover {
-    filter: opacity(100%);
-  }
-}
+    filter: opacity(100%); } }
 
+.header-top img.converse {
+  height: 10px;
+  filter: opacity(50%);
+  &:hover {
+    filter: opacity(100%); } }
 
 .header.top ul {
   height: 40px; }

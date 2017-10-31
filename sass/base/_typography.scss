@@ -1,6 +1,29 @@
 
 @font-face {
     font-family: "nikefont";
-    src: url("https://www.nike.com/styleguide/assets/fonts/nike/5fdc935e-9e30-442a-bbe9-8d887b858471.woff
-") format('woff');
+    src: url("https://www.nike.com/styleguide/assets/fonts/nike/5fdc935e-9e30-442a-bbe9-8d887b858471.woff") format('woff');
 }
+
+
+
+// @font-face {
+//   font-family: 'OneNikeGlyphs';
+//   src: url("https://www.nike.com/styleguide/assets/fonts/onenike-glyph/desktop/OneNikeGlyphs-52f63fe773749550a8b6ecbacdbced22.woff") format("woff"); }
+//
+// .nsg-glyph--jumpman:before {
+//   content: "\f11e"; }
+//
+// [class*=nsg-glyph--]:before {
+//   -webkit-font-smoothing: antialiased;
+//   display: inline-block;
+//   font-family: 'OneNikeGlyphs'; }
+//
+// .nsg-glyph--logo-hurley:before {
+//   content: "\f14e"; }
+//
+// .nsg-glyph--logo-converse:before {
+//   content: "\f15b"; }
+//
+// .nsg-glyph--cart:before {
+//   content: "\f108";
+//   font-size: 20px; }
