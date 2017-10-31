@@ -5,6 +5,9 @@
   @include fontss(nikefont,$text,16px,bold);
   align-items: center;
   border-radius: 2px;
-  border: none;
+  border: 1px solid $grey-lt;
   margin-top: 20px;
+  &:hover {
+  color: $black;
+  cursor: pointer; }
 }

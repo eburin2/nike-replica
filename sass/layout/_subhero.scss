@@ -1,0 +1,12 @@
+.sub-hero {
+  margin-top: 140px;
+  width: 100%;
+  @include dflexc;
+}
+
+.sub-hero img {
+  height: auto;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}

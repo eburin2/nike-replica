@@ -3,8 +3,8 @@ header {
   top: 0;
   left: 0;
   background-color: white;
-  width: 100%;
-}
+  width: 100%; }
+
 .header-top {
     @include dflexc;
     justify-content: space-between;
@@ -12,21 +12,43 @@ header {
     height: 40px;
     border-bottom: 1px solid $grey-lt; }
 
+.header-top img.jumpman {
+  transform: translateY(2px);
+  height: 15px;
+  filter: opacity(50%);
+  &:hover {
+    filter: opacity(100%);
+  }
+}
+
+.header-top img.hurley {
+  height: 10px;
+  filter: opacity(50%);
+  // transform: translateY(6px);
+
+  &:hover {
+    filter: opacity(100%);
+  }
+}
+
+
 .header.top ul {
-  overflow: hidden;
   height: 40px; }
 
 .header-top li {
+  transform: translate(0px,10px);
   @include fontss(sans-serif,$grey,12px,light);
   display: inline;
-  // margin: 0px 10px;
-  justify-content: space-around;
-  height: 40px;
   padding: 12.5px 30px;
   border-right: 1px solid $grey-lt;
   &:hover {
   color: $black;
-  cursor: pointer; } }
+  cursor: pointer; }
+  &.cart {
+    transform: translateY(10px);
+    border: none;
+    padding: 12.5px; } }
+
 
 .header-bottom {
   @include dflexc;
@@ -39,7 +61,7 @@ header {
   height: 40%; }
 
 .header-bottom li {
-  @include fontss(sans-serif,$black,14px,bold);
+  @include fontss(nikefont,$black,16px,bold);
   display: inline;
   padding: 0px 20px; }
 
