@@ -1,0 +1,34 @@
+.gallery h3 {
+  @include fontss(nikefont,$black,22px,bold); }
+
+.gallery {
+  background-color: $white;
+  padding: 30px 50px;
+  @include dflex;
+  flex-direction: column;
+ }
+
+.gallery-items {
+  @include dflexc;
+  margin-top: 60px;
+  justify-content: space-between; }
+
+.gallery-item {
+  padding: 0px 20px 0px 0px; }
+
+.gallery-item-pic {
+  min-height: 600px;
+  min-width: 460px; }
+
+.gallery-item-pic img {
+  width: 100%;
+  height: 100%; }
+
+.gallery-item-text p {
+  @include fontss(sans-serif, $black, 16px, light);
+  margin-top: 30px;
+  &:nth-child(2):hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

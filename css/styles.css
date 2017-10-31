@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "nikefont";
+  src: url("https://www.nike.com/styleguide/assets/fonts/nike/5fdc935e-9e30-442a-bbe9-8d887b858471.woff\a") format("woff"); }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.gallery h3 {
+  font-family: nikefont;
+  color: #333;
+  font-size: 22px;
+  font-weight: bold; }
+
+.gallery {
+  background-color: #FFF;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column; }
+
+.gallery-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  justify-content: space-between; }
+
+.gallery-item {
+  padding: 0px 20px 0px 0px; }
+
+.gallery-item-pic {
+  min-height: 600px;
+  min-width: 460px; }
+
+.gallery-item-pic img {
+  width: 100%;
+  height: 100%; }
+
+.gallery-item-text p {
+  font-family: sans-serif;
+  color: #333;
+  font-size: 16px;
+  font-weight: light;
+  margin-top: 30px; }
+  .gallery-item-text p:nth-child(2):hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%; }
+
+.header-top {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px solid #DDD; }
+
+.header.top ul {
+  overflow: hidden;
+  height: 40px; }
+
+.header-top li {
+  font-family: sans-serif;
+  color: #888;
+  font-size: 12px;
+  font-weight: light;
+  display: inline;
+  justify-content: space-around;
+  height: 40px;
+  padding: 12.5px 30px;
+  border-right: 1px solid #DDD; }
+  .header-top li:hover {
+    color: #333;
+    cursor: pointer; }
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between; }
+
+.header-bottom .logo {
+  height: 40%; }
+
+.header-bottom li {
+  font-family: sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline;
+  padding: 0px 20px; }
+
+.header-bottom input {
+  font-family: sans-serif;
+  color: #888;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 20px; }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 1600px;
+  height: 100%;
+  background-image: url("../img/lebron-hero.jpg");
+  background-size: cover;
+  margin-top: 120px; }
+
+.hero h2 {
+  font-family: nikefont;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-bottom: 10px; }
+
+.hero p {
+  font-family: sans-serif;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: lighter; }
+
+.hero button {
+  background-color: #FFF;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  font-family: nikefont;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 2px;
+  border: none;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

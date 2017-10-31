@@ -1,0 +1,12 @@
+@mixin dflexc {
+  display: flex;
+  justify-content: center; }
+
+@mixin dflex {
+  display: flex; }
+
+@mixin fontss($font, $color, $size, $weight) {
+  font-family: $font;
+  color: $color;
+  font-size: $size;
+  font-weight: $weight; }

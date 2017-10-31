@@ -1,0 +1,10 @@
+@mixin button($background, $text) {
+  background-color: $background;
+  padding: 10px 20px;
+  @include dflexc;
+  @include fontss(nikefont,$text,16px,bold);
+  align-items: center;
+  border-radius: 2px;
+  border: none;
+  margin-top: 20px;
+}
