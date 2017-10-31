@@ -10,6 +10,7 @@
   width: 100%; }
 
 footer {
+  margin-top: 100px;
   padding: 40px;
   background-color: #1B1B1B;
   width: 100%;
@@ -66,11 +67,14 @@ footer ul {
   display: flex;
   flex-direction: column; }
 
-.gallery-items {
+.gallery-items, .gallery-accessories {
   display: flex;
   justify-content: center;
   margin-top: 60px;
   justify-content: space-between; }
+
+.gallery-accessories {
+  flex-wrap: wrap; }
 
 .gallery-item {
   padding: 0px 20px 0px 0px; }
@@ -79,6 +83,12 @@ footer ul {
   height: 600px;
   width: 460px; }
   .gallery-item-pic:hover {
+    cursor: pointer; }
+
+.gallery-accessories .gallery-item-pic {
+  width: 570px;
+  height: 750px; }
+  .gallery-accessories .gallery-item-pic:hover {
     cursor: pointer; }
 
 .gallery-item-pic img {
@@ -94,6 +104,11 @@ footer ul {
   .gallery-item-text p:nth-child(2):hover {
     text-decoration: underline;
     cursor: pointer; }
+
+.gallery-accessories .gallery-item-text p:nth-child(2) {
+  color: #888;
+  margin-top: 10px;
+  margin-bottom: 100px; }
 
 header {
   position: fixed;

@@ -5,13 +5,16 @@
   background-color: $white;
   padding: 30px 50px;
   @include dflex;
-  flex-direction: column;
- }
+  flex-direction: column; }
 
 .gallery-items {
   @include dflexc;
   margin-top: 60px;
   justify-content: space-between; }
+
+.gallery-accessories {
+  @extend .gallery-items;
+  flex-wrap: wrap; }
 
 .gallery-item {
   padding: 0px 20px 0px 0px; }
@@ -19,6 +22,12 @@
 .gallery-item-pic {
   height: 600px;
   width: 460px;
+  &:hover {
+    cursor: pointer; } }
+
+.gallery-accessories .gallery-item-pic {
+  width: 570px;
+  height: 750px;
   &:hover {
     cursor: pointer; } }
 
@@ -31,6 +40,9 @@
   margin-top: 30px;
   &:nth-child(2):hover {
     text-decoration: underline;
-    cursor: pointer;
-  }
-}
+    cursor: pointer; } }
+
+.gallery-accessories .gallery-item-text p:nth-child(2) {
+  color: $grey;
+  margin-top: 10px;
+  margin-bottom: 100px; }

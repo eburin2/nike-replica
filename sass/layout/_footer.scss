@@ -1,4 +1,5 @@
 footer {
+  margin-top: 100px;
   padding: 40px;
   background-color: $black-dark;
   width: 100%;
@@ -28,7 +29,6 @@ footer ul:nth-child(2), footer ul:nth-child(3) {
 footer ul li:hover {
   color: $grey-lt;
   cursor: pointer; }
-
 
 footer ul {
   list-style-type: none;
