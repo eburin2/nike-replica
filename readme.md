@@ -17,8 +17,8 @@ This is a website that exhibits the sale of a Project DC Carbon turntable. The w
 
 ## Setup/Installation Requirements
 
-Clone the "css-product" repository to your desktop from GitHub here: https://github.com/eburin2/nike-replica.git
-Open the "css-product" folder
+Clone the "nike-replica" repository to your desktop from GitHub here: https://github.com/eburin2/nike-replica.git
+Open the "nike-replica" folder
 Open a web-browser, preferably Chrome.
 Drag "index.html" into an open tab in your web browser to open
 
